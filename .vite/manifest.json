@@ -10,8 +10,18 @@
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
+  "app/convrza-assistant.tsx": {
+    "file": "assets/convrza-assistant-BKxKgsIz.js",
+    "name": "convrza-assistant",
+    "src": "app/convrza-assistant.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
   "app/launch-pulse.tsx": {
-    "file": "assets/launch-pulse-BXZm3m6l.js",
+    "file": "assets/launch-pulse-DjzSl9j0.js",
     "name": "launch-pulse",
     "src": "app/launch-pulse.tsx",
     "isDynamicEntry": true,
@@ -21,7 +31,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-B7mKem51.js",
+    "file": "assets/layout-segment-context-2IgPeetI.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -32,7 +42,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DXR8xLYd.js",
+    "file": "assets/index-BOh7rGLO.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -43,7 +53,8 @@
     "dynamicImports": [
       "node_modules/vinext/dist/shims/layout-segment-context.js",
       "virtual:vinext-app-browser-entry",
-      "app/launch-pulse.tsx"
+      "app/launch-pulse.tsx",
+      "app/convrza-assistant.tsx"
     ]
   }
 }
