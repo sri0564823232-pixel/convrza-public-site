@@ -1,0 +1,5 @@
+Contact: mailto:hello@convrza.com
+Expires: 2027-07-29T00:00:00Z
+Canonical: https://convrza.com/.well-known/security.txt
+Preferred-Languages: en, ar
+
